@@ -1,6 +1,6 @@
 const fibonacci = function (num) {
   num = parseInt(num);
-  if (num <= 1) return num;
+  if (num <= 1) return "OOPS";
 
   let first = 0;
   let second = 1;
@@ -14,7 +14,7 @@ const fibonacci = function (num) {
   return second;
 };
 
-console.log("30");
+// console.log("30");
 
 // Do not edit below this line
 module.exports = fibonacci;
