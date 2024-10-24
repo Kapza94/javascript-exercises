@@ -5,11 +5,11 @@ const palindromes = function (str) {
 
   //splits str
   const splitStr = str.split("");
-
+    // reverses str
   const reverseStr = splitStr.reverse("");
-
+    // joins str
   const joinStr = reverseStr.join("");
-
+    //checks whetehr its the same back and the same forward. 
   if (str === joinStr) {
     console.log("This is a Palindrome");
     return "This is a Palindrome";
